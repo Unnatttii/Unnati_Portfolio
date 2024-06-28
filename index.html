@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <!-- <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    /> -->
+
+    <!--=============== BOXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Unnati's portfolio website</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Unnati</a>
+
+        <div class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active__link">
+                <i class="ri-home-line"></i>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="ri-user-line"></i>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="ri-trophy-line"></i>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#education" class="nav__link">
+                <i class="ri-book-open-line"></i>
+              </a>
+            </li>            
+            <li class="nav__item">
+              <a href="#work" class="nav__link">
+                <i class="ri-image-edit-fill"></i>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#achievement" class="nav__link">
+                <i class="ri-briefcase-line"></i>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="ri-chat-1-line"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Theme change button -->
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+      </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home__section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <span class="home__greeting">Hello, I'm</span>
+            <h1 class="home__name">Unnati Pohankar</h1>
+            <h3 class="home__education">Persuing B.E in Computer Engg.</h3>
+            <div class="home__button">
+              <a
+                download=""
+                href="assets/pdf/UnnatiPohankar_resume.pdf"
+                class="button button--ghost"
+              >
+                Download Resume
+              </a>
+              <a href="#about" class="button">About me</a>
+            </div>
+          </div>
+          <div class="home__handle">
+            <img src="assets/img/Unnatiprofile.png" alt="" class="home__img" />
+          </div>
+
+          <div class="home__social">
+            <a
+              href="https://www.linkedin.com/in/unnati-pohankar" target="_blank"
+              class="home__social-link"
+            >
+              <i class="ri-linkedin-box-fill"></i>
+            </a>
+            <a href="https://github.com/Unnatttii" target="_blank" class="home__social-link">
+              <i class="ri-github-fill"></i>
+            </a>
+          </div>
+          <a href="#about" class="home__scroll">
+            <i class="ri-mouse-line home__scroll-icon"></i>
+            <span class="home__scroll-name">Scroll Down</span>
+          </a>
+        </div>
+      </section>
+
+      <!--=============== ABOUT ===============-->
+      <section class="about section" id="about">
+        <span class="section__subtitle">My Intro</span>
+        <h2 class="section__title">About Me</h2>
+        <div class="about__container container grid">
+          <img src="assets/img/aboutunnati.jpeg" alt="" class="about__img" />
+
+          <div class="about__data">
+            <div class="about__info">
+              <div class="about__box">
+                <i class="ri-award-line about__icon"></i>
+                <h3 class="about__title">Experience</h3>
+                <span class="about__subtitle">3 years of coding</span>
+              </div>
+
+              <div class="about__box">
+                <i class="ri-briefcase-3-line about__icon"></i>
+                <h3 class="about__title">completed</h3>
+                <span class="about__subtitle">5 projects</span>
+              </div>
+
+              <div class="about__box">
+                <i class="ri-customer-service-line about__icon"></i>
+                <h3 class="about__title">Support</h3>
+                <span class="about__subtitle">Online 24/7</span>
+              </div>
+            </div>
+            <p class="about__description">
+              I am a final-year student at A.P. Shah Institute of Technology
+              pursuing BE in computer engineering, specializing in AI and
+              programming. As a keen learner, I have fundamental knowledge in
+              various coding languages, including C, Python, and frontend
+              development.<br />My academic journey and hands-on projects have
+              fueled my passion for AI and technology,driving me to continually
+              enhance my skills and knowledge in these fields. I aspire to be a
+              dynamic and results-driven professional with a strong background
+              in web development and AIML, seeking to leverage expertise in
+              Software Development and Programming to contribute to the success
+              of the company.
+            </p>
+            <a href="#contact" class="button">Contact Me</a>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== SKILLS ===============-->
+      <section class="skills section" id="skills">
+        <span class="section__subtitle">My abilities</span>
+        <h2 class="section__title">My Experience</h2>
+        <div class="skills__container container grid">
+          
+          
+          <div class="skills__content">
+            <h3 class="skills__title">Programming Languages</h3>
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="ri-verified-badge-fill"></i>
+
+                  <div>
+                    <h3 class="skills__name">Python</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-verified-badge-fill"></i>
+
+                  <div>
+                    <h3 class="skills__name">C/C++</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="ri-verified-badge-fill"></i>
+
+                  <div>
+                    <h3 class="skills__name">Java</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+              </div>
+              <!-- -------------------------------------------------------------- -->
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="ri-verified-badge-fill"></i>
+                  <div>
+                    <h3 class="skills__name">R</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- =========================================================================== -->
+          <div class="skills__content">
+            <h3 class="skills__title">Web Developer</h3>
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="ri-verified-badge-fill"></i>
+                  <div>
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="ri-verified-badge-fill"></i>
+                  <div>
+                    <h3 class="skills__name">CSS</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="ri-verified-badge-fill"></i>
+                  <div>
+                    <h3 class="skills__name">JavaScript</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="ri-verified-badge-fill"></i>
+                  <div>
+                    <h3 class="skills__name">MERN</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+              </div>
+              <!-- -------------------------------------------------------------- -->
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="ri-verified-badge-fill"></i>
+                  <div>
+                    <h3 class="skills__name">Php</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="ri-verified-badge-fill"></i>
+                  <div>
+                    <h3 class="skills__name">MySQL</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="ri-verified-badge-fill"></i>
+                  <div>
+                    <h3 class="skills__name">Git</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ========================================================= -->
+          <div class="skills__content">
+            <h3 class="skills__title">Interpersonal skills</h3>
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="ri-verified-badge-fill"></i>
+
+                  <div>
+                    <h3 class="skills__name">Leadership</h3>
+                    <span class="skills__level">Strong</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-verified-badge-fill"></i>
+
+                  <div>
+                    <h3 class="skills__name">PublicSpeaking</h3>
+                    <span class="skills__level">Strong</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="ri-verified-badge-fill"></i>
+
+                  <div>
+                    <h3 class="skills__name">Teamwork</h3>
+                    <span class="skills__level">High</span>
+                  </div>
+                </div>
+              </div>
+              <!-- -------------------------------------------------------------- -->
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="ri-verified-badge-fill"></i>
+                  <div>
+                    <h3 class="skills__name">Flexibility</h3>
+                    <span class="skills__level">High</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="ri-verified-badge-fill"></i>
+                  <div>
+                    <h3 class="skills__name">Patience</h3>
+                    <span class="skills__level">High</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== SERVICES ===============-->
+      <section class="services section" id="education">
+        <span class="section__subtitle">Education</span>
+        <h2 class="section__title">Ongoing</h2>
+
+        <div class="services__container container grid">
+          <div class="services__card">
+            <h3 class="services__title">
+              B.E <br />
+              Computer Engineering
+            </h3>
+            <span class="services__button">
+              see more <i class="ri-arrow-right-line services__icon"></i>
+            </span>
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="ri-close-line services__modal-close"></i>
+                <h3 class="services__modal-title">CGPA</h3>
+                <p class="services__modal-description">upto sem5: 8.47</p>
+              </div>
+            </div>
+          </div>
+          <div class="services__card">
+            <h3 class="services__title">Std. 12th<br />HSC</h3>
+            <span class="services__button">
+              see more <i class="ri-arrow-right-line services__icon"></i>
+            </span>
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="ri-close-line services__modal-close"></i>
+                <h3 class="services__modal-title">Percentage</h3>
+                <p class="services__modal-description">94%</p>
+              </div>
+            </div>
+          </div>
+          <div class="services__card">
+            <h3 class="services__title">Std. 10th<br />CBSE</h3>
+            <span class="services__button">
+              see more <i class="ri-arrow-right-line services__icon"></i>
+            </span>
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="ri-close-line services__modal-close"></i>
+                <h3 class="services__modal-title">Percentage</h3>
+                <p class="services__modal-description">95.6%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== WORK ===============-->
+      <section class="work section" id="work">
+        <span class="section__subtitle">My Portfolio</span>
+        <h2 class="section__title">Recent Works</h2>
+
+        <div class="work__filters">
+          <span class="work__item active-work" data-filter="all">All</span>
+          <span class="work__item" data-filter=".web">Web</span>
+          <span class="work__item" data-filter=".aiml">AIML</span>
+          <span class="work__item" data-filter=".java">Java</span>
+          <span class="work__item" data-filter=".python">Python</span>
+        </div>
+
+        <div class="work__container container grid">
+          <div class="work__card mix web">
+            <img src="assets/img/work1.jpg" alt="" class="work__img" />
+            <h3 class="work__title">Web design</h3>
+            <a href="https://github.com/Unnatttii/Feed_the_Need" class="work__button">
+              Demo <i class="ri-arrow-right-fill work__icon"></i>
+            </a>
+          </div>
+          <div class="work__card mix aiml">
+            <img src="assets/img/work2.jpg" alt="" class="work__img" />
+            <h3 class="work__title">AIML</h3>
+            <a href="https://github.com/Unnatttii/Online-Exam-and-AI-proctroring" class="work__button">
+              Demo <i class="ri-arrow-right-fill work__icon"></i>
+            </a>
+          </div>
+          <div class="work__card mix java">
+            <img src="assets/img/work3.jpg" alt="" class="work__img" />
+            <h3 class="work__title">Java</h3>
+            <a href="#" class="work__button">
+              Demo <i class="ri-arrow-right-fill work__icon"></i>
+            </a>
+          </div>
+          <div class="work__card mix python">
+            <img src="assets/img/work4.jpg" alt="" class="work__img" />
+            <h3 class="work__title">Python</h3>
+            <a href="https://github.com/Unnatttii/voiceassistant" class="work__button">
+              Demo <i class="ri-arrow-right-fill work__icon"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== ACHIEVEMNTS ===============-->
+      <section class="achievements__section" id="achievement">
+        <span class="section__subtitle">Extra-curricular</span>
+        <h2 class="section__title">Achievements</h2>
+
+        <div class="achievements__container container swiper">
+          <div class="swiper-wrapper">
+            <div class="achievements__card swiper-slide">
+              <img
+                src="assets/img/gdsclogo.png"
+                alt=""
+                class="achievements__img1"
+              />
+              <h3 class="achievements__name">Event Management Head</h3>
+              <p class="achievements__description">Tenure:2023-2024</p>
+              <p class="achievements__description">
+                Throughout my tenure, I, along with the entire GDSC-APSIT team,
+                organized over 10 events, including GDG expert talks, hands-on
+                workshops, and Google courses.
+              </p>
+            </div>
+            <div class="achievements__card swiper-slide">
+              <img
+                src="assets/img/apsit.jpg"
+                alt=""
+                class="achievements__img"
+              />
+              <h3 class="achievements__name">Hosting and Anchoring Head</h3>
+              <p class="achievements__description">Tenure:2023-2024</p>
+              <p class="achievements__description">
+                I have hosted numerous events for the college during my tenure,
+                which include Ojus: annual cultural fest and technical events. I
+                also got an opportunity to host for GDSC TechFest Mumbai,2024.
+              </p>
+            </div>
+            <div class="achievements__card swiper-slide">
+              <img
+                src="assets/img/Hackwave.jpeg"
+                alt=""
+                class="achievements__img"
+              />
+              <h3 class="achievements__name">
+                Core Organizer: Hackwave hackathon
+              </h3>
+              <p class="achievements__description">
+                I was a part of the core organising team of Hackwave hackathon
+                which was conducted in A.P. Shah institute of Technology, Thane
+                on 6th and 7th April, 2024.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--=============== CONTACT ===============-->
+      <section class="contact__section" id="contact">
+        <span class="section__subtitle">Get in Touch</span>
+        <h2 class="section__title">Contact Me</h2>
+
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <h3 class="contact__title">Talk to me</h3>
+
+            <div class="contact__info">
+              <div class="contact__card">
+                <i class="ri-mail-send-line contact__card-icon"></i>
+                <h3 class="contact__card-title">Email</h3>
+                <span class="contact__card-data">spunnati3012@gmail.com</span>
+                <a href="mailto:spunnati3012@gmail.com" target="_blank" class="contact__button">
+                  Write me <i class="ri-arrow-right-line contact__button-icon"></i>
+                </a>
+              </div>            
+            </div>
+          </div>
+
+          <div class="contact__content">
+            <h3 class="contact__title">Write me your Project</h3>
+            <form action="" class="contact__form">
+              <div class="contact__form-div">
+                <label for="" class="contact__form-tag">Name</label>
+                <input type="text" placeholder="Enter your name" class="contact__form-input">
+              </div>
+
+              <div class="contact__form-div">
+                <label for="" class="contact__form-tag">Mail</label>
+                <input type="email" placeholder="Enter your mail-id" class="contact__form-input">
+              </div>
+
+              <div class="contact__form-div contact__form-area">
+                <label for="" class="contact__form-tag">Projects</label>
+                <textarea name="" id="" cols="30" rows="6" placeholder="Write your project" class="contact__form-input"></textarea>
+              </div>
+
+              <button class="button">Send Message</button>
+            </form>
+
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+      <div class="footer__container">
+        <h1 class="footer__title">Unnati</h1>
+
+        <ul class="footer__list">
+          <li>
+            <a href="#about" class="footer__link">About</a>
+          </li>
+          <li>
+            <a href="#work" class="footer__link">Projects</a>
+          </li>
+          <li>
+            <a href="#achievement" class="footer__link">Achievements</a>
+          </li>
+        </ul>
+        <ul class="footer__social">
+          <a href="https://www.instagram.com/_uunnaattii?igsh=cm56ZHo1cG9jM2xw" target="_blank" class="footer__social-link">
+            <i class="ri-instagram-line"></i>
+          </a>
+          <a href="https://x.com/PohankarUnnati?t=ws4gSLTKV1AZEt6g3OJrTQ&s=09" target="_blank" class="footer__social-link">
+            <i class="ri-twitter-x-line"></i>
+          </a>
+        </ul>
+        <span class="footer__copy">
+          &#169; UnnatiPohankar. All rights reserved
+        </span>
+
+      </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src=""></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
