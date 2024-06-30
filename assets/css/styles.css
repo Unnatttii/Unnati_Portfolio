@@ -888,7 +888,7 @@ body.light-theme{
 }
 
 .contact__message{
-  font-size: var(--h3-font-size);
+  font-size: var(--h2-font-size);
   /* position: absolute;
   bottom: 2.8rem;
   left: 2.5rem; */
