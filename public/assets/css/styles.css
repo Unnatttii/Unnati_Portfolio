@@ -254,8 +254,7 @@ body.light-theme{
 .nav__menu{
   position: fixed;
   bottom: 1rem;
-  background-color: red;
-  /* background-color: hsla(var(--second-hue), 32%, 16%, .8); */
+  background-color: hsla(var(--second-hue), 32%, 16%, .8);
   width: 80%;
   border-radius: 4rem;
   padding: 2 rem 2.25rem;
