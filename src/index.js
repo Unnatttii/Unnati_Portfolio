@@ -24,7 +24,7 @@ db.on('error',()=>console.log("error in connecting to Database"));
 db .once('open',()=>console.log("connected to database"))
 
 
-app.post("/index.html",(req,res)=>{
+app.post("/public/index.html",(req,res)=>{
     var name = req.body.name;
     var email = req.body.email;
     var projects= req.body.projects;
