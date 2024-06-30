@@ -1282,7 +1282,7 @@ body.light-theme{
 
 /* 2:18:00 */
 /* For large devices */
-@media screen and (min-width: 577px) {
+@media screen and (min-width: 800px) {
   .home__social{
     margin-left: 10rem;
   }
@@ -1302,11 +1302,11 @@ body.light-theme{
     align-items: center;
     width: 75%;
     row-gap: 2rem;
-    padding: 5rem;
+    padding: 1rem;
     padding-top: 1rem;
-    margin: 0 auto;
-    
   }
+
+  
 
   .services__container{
     justify-content: center;
@@ -1353,7 +1353,7 @@ body.light-theme{
  }
 
  .contact__form{
-  width: 1000px;
+  width: 770px;
  }
 
 }
