@@ -280,7 +280,12 @@ body.light-theme{
   margin-left: 2rem;
   margin-right: 2rem;
 }
-
+.ri-moon-line {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+}
 /* Active link */
 .active__link{
   background: linear-gradient(180deg,
