@@ -972,6 +972,24 @@ body.light-theme{
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width: 460px) {
+  .nav__menu{
+    width: 75%;
+    /* justify-content: center; */
+    padding: 1rem 0.5rem;
+    position: fixed;
+    bottom: 0.5rem;
+    left: 3rem;
+  }
+
+  .services__container{
+    justify-content: center;
+    margin: 0 suto;
+
+  }
+
+  
+}
 @media screen and (max-width: 576px) {
 
   .container{
@@ -989,9 +1007,9 @@ body.light-theme{
     /* margin-left: -13rem; */
     justify-content: center;
     /* background-color: red; */
-    padding: 1rem 0.5rem;
-    
+    padding: 1rem 0.5rem;    
     width: 75%;
+    margin: 0 auto;
     
   }
 
@@ -1094,7 +1112,7 @@ body.light-theme{
   
   .services__container{
     grid-template-columns: 250px;
-    margin-left: 8rem;
+    margin-left: 6rem;
     justify-content: center;
   }
 
@@ -1125,6 +1143,7 @@ body.light-theme{
     /* margin-left: 3.5rem; */
     justify-content: center;
     margin: 0 auto;
+    margin-top: 4rem;
   }
   .achievements__card{
     margin: 0 auto;
@@ -1140,6 +1159,9 @@ body.light-theme{
     margin-left: 0rem;
   }
 
+  .contact__section{
+    margin-top: 4rem;
+  }
   .contact__container{
     margin: 0 auto;
     justify-content: center;   
