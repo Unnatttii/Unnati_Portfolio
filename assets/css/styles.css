@@ -995,6 +995,7 @@ body.light-theme{
   .container{
     /* max-width: 100%; */
     justify-content: center;
+    
   }
   .section__subtitle,
   .section__title{
